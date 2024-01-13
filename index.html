@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topper Buzz Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">COURSES</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+        <ul>
+            <li class="logo"><a href="#"><img src="logo.png" alt="Logo" style="width: 50px;">Topper Buzz Premium</a></li>
+            <li class="hideOnMobile"><a href="index.html">HOME</a></li>
+            <li class="hideOnMobile"><a href="#">COURSES</a></li>
+            <li class="hideOnMobile"><a href="#">ABOUT US</a></li>
+            <li class="hideOnMobile"><a href="#">CONTACT US</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+    <div class="text-box">
+        <h1>Topper Buzz Premium</h1>
+        <p>Unlock Your Potential, Illuminate Your Future – Topper Buzz Premium,<br> Where Learning Meets Success</p>
+        <a href="" class="hero-btn">Visit Us to Know More</a>
+    </div>
+    </section>
+    <!-----------------------------Courses------------------------->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>CUET-UG Classes</h3>
+                <p>Common University Entrance Test also known as CUET UG is a national level entrance exam conducted by NTA for admission to UG courses offered by participating institutes. Introduced in 2022, the CUET exam aligns as a significant UG entrance examination, offering candidates a common platform for seeking admission to UG programs in top colleges/universities throughout India. The exam is conducted once a year in over 500 cities in India and abroad. The exam is conducted in a computer-based mode. CUET exam is conducted in multiple phases depending upon on the number of candidates registered for the entrance exam.
+                    The CUET 2024 UG examination is scheduled from May 15 to May 31, 2024. The Application forms for CUET 2024 were released expected on First week of February 2024 , 2023, by the NTA. Students can check on Official website of CUET UG 2024(cuet.samarth.ac.in)</p>
+                </div>
+                <div class="course-col">
+                    <h3>CUET-PG Classes</h3>
+                    <p>The CUET PG is a common entrance examination conducted by the National Testing Agency (NTA) for admission to various PG programmes in about 40 central and other participating universities. The CUET PG exam is conducted annually as a 120 minutes exam. Till 2022, the CUET PG exam was called CUCET (Central Universities Common Entrance Test). Before 2021, the University Grants Commission (UGC) had conducted the exam in the mode of paper-pencil.
+                        The CUET 2024 PG examination is scheduled from March 11 to March 28, 2024. The Application forms for CUET 2024 were released on December 26, 2023, by the NTA. Students were able to register online on the CUET 2024(pgcuet.samarth.ac.in ) application portal, from December 26, 2023, to January 24, 2024.</p>
+                    </div>
+        </div>
+    </section>
+
+<!-----------------------------Toppers-------------------------------->
+
+<section class="topper">
+    <h1>Our Toppers</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="row">
+        <div class="topper-col">
+            <img src="Topper 1.png">
+        </div>
+    </div>
+</section>
+</body>
+</html>
